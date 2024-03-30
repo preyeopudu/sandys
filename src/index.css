@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "MADE Mellow PERSONAL USE";
+  src: url("/src/fonts/MADEMellowPERSONALUSE-Regular.otf") format("truetype"),
+    url("/fonts/MADE-Mellow.woff") format("woff"),
+    url("/fonts/MADE-Mellow.woff2") format("woff2");
+}
+
+.font-mellow {
+  font-family: "MADE Mellow PERSONAL USE", sans-serif;
+}

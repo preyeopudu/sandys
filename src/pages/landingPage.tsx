@@ -1,9 +1,13 @@
+import DiscountSection from "../sections/discountSection";
+import HeroSection from "../sections/heroSection";
 import Navbar from "../sections/navbar";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="bg-black">
       <Navbar />
+      <HeroSection />
+      <DiscountSection />
     </div>
   );
 };

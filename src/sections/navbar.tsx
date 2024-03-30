@@ -5,14 +5,14 @@ import logout from "../assets/Logout.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-900 bg-opacity-70 p-4">
+    <nav className="bg-gray-900 bg-opacity-70 p-4 h-20 fixed w-full top-0 z-10">
       <div className=" mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0">
-            <img src={logo} alt="Logo" className="h-8" />
+            <img src={logo} alt="Logo" className=" h-14" />
           </div>
           {/* Navigation links */}
-          <div className="hidden lg:block">
+          <div className="hidden lg:block font-open-sans">
             <ul className="flex space-x-4">
               <li>
                 <a
