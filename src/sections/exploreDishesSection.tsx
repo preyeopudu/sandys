@@ -16,7 +16,7 @@ const ExploreDishesSection = () => {
   ];
 
   return (
-    <div className="md:mx-24 mx-5 bg-black h-full">
+    <div className="md:mx-24 mx-5">
       <p className="text-4xl font-black lg:text-7xl font-mellow mt-6 text-sandy-green text-center">
         Explore All Our <span className="text-sandy-orange">Dishes</span>
       </p>
@@ -28,8 +28,8 @@ const ExploreDishesSection = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-col md:flex-row mt-6 h-104">
-        <div className="w-full xl:px-6 xl:w-3/5 grid xl:gap-x-6  grid-cols-2 lg:grid-cols-3 scrollbar-thin gap-4 md:gap-6 mt-6  xl:h-full xl:overflow-y-auto">
+      <div className="flex flex-col md:flex-row mt-6 xl:h-104">
+        <div className="w-full xl:px-6 xl:w-3/5 grid xl:gap-x-6  grid-cols-2 md:grid-cols-3 scrollbar-thin gap-4 md:gap-6 mt-6  xl:h-full xl:overflow-y-auto">
           <Menu />
           <Menu />
           <Menu />

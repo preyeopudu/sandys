@@ -37,7 +37,7 @@ scrollbar-thin::-webkit-scrollbar {
 }
 
 .scrollbar-thin::-webkit-scrollbar-thumb {
-  background-color: #b7cb1b;
+  background-color: white;
 }
 
 .scrollbar-thin::-webkit-scrollbar-track {

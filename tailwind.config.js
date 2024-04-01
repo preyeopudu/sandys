@@ -5,9 +5,11 @@ export default {
     extend: {
       width: {
         104: "551px",
+        106: "618",
       },
       height: {
         104: "551px",
+        106: "618",
       },
       colors: {
         "custom-gray": "rgba(14, 14, 14, 0.7)",

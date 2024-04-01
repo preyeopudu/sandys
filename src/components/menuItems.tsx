@@ -11,13 +11,20 @@ const Menu = () => {
         <img src={puffpuff} alt="star" className="ml-2 md:hidden w-full" />
       </div>
 
-      <p className="font-sans text-2xl text-sandy-green  font-bold">€ 0.05</p>
+      <p className="font-sans text-base xl:text-2xl text-sandy-green  font-bold">
+        € 0.05
+      </p>
 
       <div className="flex justify-between items-center">
         {[...Array(5)].map((_, index) => (
-          <img key={index} src={star} alt="star" className="h-6 w-6" />
+          <img
+            key={index}
+            src={star}
+            alt="star"
+            className="md:h-6 md:w-6 h-4 w-4"
+          />
         ))}
-        <img src={emoji} alt="star" className="h-6 w-6" />
+        <img src={emoji} alt="star" className="md:h-6 md:w-6 h-4 w-4" />
       </div>
 
       <button className="rounded-3xl text-nowrap border border-sandy-green text-whte bg-sandy-green px-6 w-full p-6 flex items-center justify-center h-10">
