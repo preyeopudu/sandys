@@ -14,10 +14,10 @@ const HeroSection = () => {
     >
       <div className="p-4 flex flex-col justify-end md:justify-center h-full px-4 md:px-32 ">
         <div>
-          <h1 className="text-4xl md:text-7xl font-bold text-sandy-green">
+          <h1 className="text-4xl md:text-7xl font-mellow font-black text-sandy-green">
             No.1 African
           </h1>
-          <h1 className=" md:text-7xl leading-10 my-8  font-bold font-mellow text-5xl text-sandy-orange">
+          <h1 className=" md:text-7xl leading-10 my-8 font-black font-mellow text-5xl text-sandy-orange">
             Food Hub
           </h1>
 

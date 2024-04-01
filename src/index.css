@@ -12,3 +12,72 @@
 .font-mellow {
   font-family: "MADE Mellow PERSONAL USE", sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4a5568;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+scrollbar-thin::-webkit-scrollbar {
+  width: 2px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #b7cb1b;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background-color: #b7cb1b;
+}
+
+/* Example of hiding the scrollbar when not hovering over it */
+.scrollbar-auto::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollbar-auto:hover::-webkit-scrollbar-thumb {
+  width: 4px;
+}
+
+.scrollbar-auto::-webkit-scrollbar-thumb {
+  background-color: #4a5568;
+}
+
+.scrollbar-auto::-webkit-scrollbar-track {
+  background-color: #cbd5e0;
+}
+
+.scrollbar-auto:hover::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Hidden scrollbar */
+.scrollbar-hidden::-webkit-scrollbar {
+  width: 0px;
+}
+
+.scrollbar-hidden:hover::-webkit-scrollbar-thumb {
+  width: 4px;
+}
+
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.scrollbar-hidden::-webkit-scrollbar-track {
+  background-color: transparent;
+}

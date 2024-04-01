@@ -18,7 +18,7 @@ const DiscountSection = () => {
 
   return (
     <section
-      className="font-sans px-8 md:px-20  py-12 md:py-28 mt-24 mx-5 md:mx-24"
+      className="font-sans px-8 md:px-20  py-12 md:py-28 md:mt-24 mx-5 md:mx-24"
       style={{
         backgroundImage: `url(${union})`,
         backgroundSize: "contain",
